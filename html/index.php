@@ -1,23 +1,29 @@
 <head><meta name="viewport" content="width=device-width, initial-scale=1.0"></head>
 <HTML>
-<style type="text/css"> //configure color and font changes as desired in this short bit of CSS
-	//posts/content
-	html,body{
-		border:none;padding:0;margin:2;
-		background:#000000;
-		color:#999999;
-		margin: 0px;
-	  	text-align:left;
-		font-family:"Consolas";
-		color:#999999;
-	}  //links
-	a{
-		color:#AA7700;
+<style type="text/css">
+        html,body{
+                border:none;padding:0;margin:2;
+                background:#000000;
+                color:#999999;
+                margin: 0px;
 }
-	h1{ //headers
-		color:#AA7700;
+        body{
+                text-align:left;
+                font-family:"Consolas",sans-serif;
+}
+        a{
+                color:#AA7700;
+}
+        code{
+                background:#999999;
+                color:#000000;
+                padding: 0px;
+}
+        h1{
+                color:#AA7700;
 }
 </style>
+
 
 <body>
 <title>fCMS welcome page</title>
