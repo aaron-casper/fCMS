@@ -29,18 +29,10 @@ if you are not running an overly complicated stack.
 Secondly, unless you actually have a need for an overly complicated stack,
 why have it?
 
-Lastly, if you're like me and really just keep a blog for the fun of it,
-perhaps you're tired of constantly having to do system updates for both the
-OS and the CMS.
+Lastly, it's actually simple enough for the nearly anyone to look through and
+modify/improve.
 
-That last one bears a bit more explanation.  I'm not saying that you can
-stop doing updates, what I'm saying is by running a simple, transparent code
-base that you can read through and see what it does, you are empowering
-yourself.  Bigger, more feature-rich CMS's are great, they're just too big 
-for smaller sites, and not a great starting point for understanding how a 
-"website" works.
-
-Including this README, fCMS is literally five files and two directories.
+Including the README, fCMS is literally five files and two directories.
 
 
 1.6K Aug 24 16:48 post.py
@@ -72,3 +64,11 @@ This is a FOSS project and I don't make enough money for a lawsuit to make
 sense anyway.  I chose f for Femto: a unit prefix in the metric system denoting 
 a factor of 10 to the −15
 
+To install, clone the files into your web 'root' (/var/www/)  the html directory
+and db subdirectory will replace /var/www/html and /var/www/html/db/ if they exist.
+
+post.py and post.txt by default should exist in /var/www/ as they look to ./html/db/
+for the database.  You can modify this if you like.
+
+Once installed, the default behavior is to load a page displaying further details
+about post.txt and post.py.
