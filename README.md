@@ -1,6 +1,6 @@
 fCMS
 
-The goal was to create a simple CMS, minimizing the features that I do not
+The goal was to create a simple CMS, omitting the features that I do not
 want, and keeping page-load times as low as possible.
 
 The initial impetus was seeing yet another wordpress site violated by robots
@@ -71,4 +71,4 @@ post.py and post.txt by default should exist in /var/www/ as they look to ./html
 for the database.  You can modify this if you like.
 
 Once installed, the default behavior is to load a page displaying further details
-about post.txt and post.py.
+about post.txt and post.py
