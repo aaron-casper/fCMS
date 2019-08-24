@@ -42,13 +42,12 @@ for smaller sites, and not a great starting point for understanding how a
 
 Including this README, fCMS is literally five files and two directories.
 
-total 16K
 
 1.6K Aug 24 16:48 post.py
 
 944b Aug 24 16:48 post.txt
 
-886b Aug 24 16:52 README.md
+2.5K Aug 24 16:52 README.md
 
 
 ./html:
