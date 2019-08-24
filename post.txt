@@ -1,0 +1,35 @@
+Congratulations, your database and php are in the correct place and working!
+
+'You may ask yourself "How do I work this?"'
+	-Talking Heads
+
+You can remove this post manually using sqlite3.
+
+<code>
+sqlite: select * from posts;
+82|2019-08-24 15:34:27|
+|post content, incl. html formatting
+</code>
+We use the first INT shown, 82 in this example.
+<code>
+sqlite: delete from posts where id = 82;
+</code>
+Tada, vaporized.
+
+To use the content insertion script, create the body of your content "post" in post.txt:
+<code>
+user@box:../cms~$ nano post.txt
+</code>
+You can use inline HTML for formatting in a "post".
+
+Then we run the insertion script
+<code>
+user@box:../cms~$ python post.py
+</code>
+You will be prompted for a title, and if the formatting looks correct prior to your post
+being committed to the database.
+
+The same process for removing this "post" can be used to remove posts with errors for revision.
+
+Enjoy, tinker, and improve it!
+-floz
