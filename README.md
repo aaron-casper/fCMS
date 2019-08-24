@@ -43,17 +43,27 @@ for smaller sites, and not a great starting point for understanding how a
 Including this README, fCMS is literally five files and two directories.
 
 total 16K
+
 1.6K Aug 24 16:48 post.py
+
 944b Aug 24 16:48 post.txt
+
 886b Aug 24 16:52 README.md
 
+
 ./html:
+
 total 8.0K
+
 2.1K Aug 24 16:48 index.php
 
+
 ./html/db:
+
 total 8.0K
+
 8.0K Aug 24 16:48 content.db
+
 
 I've been using this with nginx for some time, but it should work equally well
 on any webserver that supports PHP, python, and sqlite.
