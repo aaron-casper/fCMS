@@ -60,6 +60,6 @@ on any webserver that supports PHP, python, and sqlite.
 
 If someone else already uses the name fCMS, I am sorry, please don't sue.
 This is a FOSS project and I don't make enough money for a lawsuit to make
-sense anyway.  I chose f for Femto: 
-Femto- (symbol f) is a unit prefix in the metric system denoting a factor of 10−15
+sense anyway.  I chose f for Femto: a unit prefix in the metric system denoting 
+a factor of 10 to the −15
 
