@@ -1,4 +1,4 @@
-fCMS
+**fCMS**
 
 The goal was to create a simple CMS, omitting the features that I do not
 want, and keeping page-load times as low as possible.
