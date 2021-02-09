@@ -29,10 +29,11 @@ if you are not running an overly complicated stack.
 Secondly, unless you actually have a need for an overly complicated stack,
 why have it?
 
-Lastly, it's actually simple enough for the nearly anyone to look through and
+Lastly, it's actually simple enough for nearly anyone to look through and
 modify/improve.
 
-Including the README, fCMS is literally five files and two directories.
+Including the README, fCMS is literally five files and two directories all
+totaling less than 25 kilobytes.
 
 
 1.6K Aug 24 16:48 post.py
